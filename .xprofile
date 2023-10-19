@@ -1,0 +1,12 @@
+# notification daemon
+dunst &
+
+# keyboard layout
+setxkbmap -model thinkpad60 -layout br &
+
+# wallpaper engine
+nitrogen --random --set-zoom-fill &
+
+# compositor
+picom --config $HOME/.config/picom/picom.conf &
+
